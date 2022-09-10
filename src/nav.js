@@ -1,4 +1,4 @@
-function nav() {
+function Nav() {
     return(
         <div>
             hello from navbar
@@ -6,4 +6,4 @@ function nav() {
     )
 }
 
-export default nav
+export default Nav
