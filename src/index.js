@@ -9,7 +9,7 @@ const data =[
   {name:'Apple', color:'red'},
   {name:'Banana', color:'yellow'},
   {name:'Grapes', color:'blue'},
-  {name:'Apple', color:'red'},
+  {name:'Cherry', color:'red'},
   {name:'Watermelon', color:'green'},
 
 ]
