@@ -3,6 +3,7 @@ import React from 'react';
 import  ReactDOM  from 'react-dom/client';
 import './index'
 import Navbar from './navbar';
+import City from './exa'
 
 
 const data =[
@@ -14,6 +15,20 @@ const data =[
 
 ]
 
+const data_2=[
+  {name:'Tashkent', size:'Big'},
+  {name:'London', size:'Enormous'},
+  {name:'Seoul', size:'Bigger'},
+  {name:'Kitab', size:'Smaller'},
+
+]
+const data3=[
+  {name:'Shukur',meaning:'Thanks'},
+  {name:'Best',meaning:'Eng Zor'},
+  {name:'Mother',meaning:'Ona'}
+
+]
+
 // import App from './App.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
@@ -21,14 +36,22 @@ root.render(
   
   <React.StrictMode>
 {
-  data.map((value)=>{
+  data3.map((value)=>{
     return(
-      <Navbar title={value}/>
+      <City title={value}/>
     )
+  })}
+ {/* { data.map((value)=>{
+    <Navbar title={value}/>
   })
-}
+} */}
 
 </React.StrictMode>
 )
 
 //props
+
+
+
+
+
