@@ -1,0 +1,15 @@
+*{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 30px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}

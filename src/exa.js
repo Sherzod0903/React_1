@@ -18,13 +18,16 @@
 
 
 import React,{Component} from 'react';
+import './meva.css'
 
 class City extends Component {
     render(){
-        
+        console.log(this);
         return(
-            <div>
-                <p>{this.props.title.name} is {this.props.title.meaning}</p>
+            <div className='box'>
+              <img src={this.props.title.image} alt='fruit'/>
+                <h2>{this.props.title.name}</h2>
+            
             </div>
         )
     }
