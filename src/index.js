@@ -3,7 +3,7 @@ import React from 'react';
 import  ReactDOM  from 'react-dom/client';
 import './index'
 
-import State from './state';
+
 
 
 
@@ -15,7 +15,7 @@ root.render(
   
   <React.StrictMode>
 
-<State/>
+
 
 </React.StrictMode>
 )
