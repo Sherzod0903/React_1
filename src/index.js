@@ -2,6 +2,8 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom/client';
 import './index'
+import Table from './Table/table';
+import data from './data';
 
 
 
@@ -15,7 +17,7 @@ root.render(
   
   <React.StrictMode>
 
-
+<Table/>
 
 </React.StrictMode>
 )
