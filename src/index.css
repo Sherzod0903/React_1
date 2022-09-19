@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* align-items: center; */
+}
+
+.form{
+    height: 700px;
+    width: 600px;
+    background-color: rgb(157, 176, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.form2{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center ;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+
+}
+.kir{
+    height: 40px;
+    width: 330px;
+    margin: 10PX;
+    border-radius: 5px;
+    border-color: black 1px;
+   
+}
+button{
+    cursor: pointer;
+    width: 330px;
+    background-color: rgb(192, 85, 144);
+    color:rgb(255, 255, 255);
+    border: none;
+    height: 37px;
+    border-radius: 10px;
+
+
+}
+.chiziq{
+    display: flex;
+    flex-direction: column;
+}
