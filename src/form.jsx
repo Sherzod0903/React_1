@@ -28,13 +28,13 @@ return(
         
         
         
-        <div className="chiziq">
+        {/* <div className="chiziq">
             <hr className="chiz"></hr>
             <div className="or"><p> Or</p> </div>
             <hr className="chiz"></hr>
 
             </div>
-
+ */}
 
     </div></div>
 )
