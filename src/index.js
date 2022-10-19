@@ -1,7 +1,7 @@
-
 import React from 'react';
 import  ReactDOM  from 'react-dom/client';
 import './index.css'
+import Style from './style';
 
 
 
@@ -10,7 +10,7 @@ root.render(
   
   <React.StrictMode>
 
-
+<Style/>
 
 </React.StrictMode>
 )
